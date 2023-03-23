@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Periféricos de PC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <form class="login-form">
+          <input type="email" placeholder="Seu Email">
+          <input type="password" placeholder="Sua Senha">
+          <a href="Loja.html"><button>Confirmar</button></a>
+        </form>
+      </div>
+      
+      <div class="store-page">
+        <div class="promotions-section">
+          <h2>Promoções</h2>
+          <p>Confira nossas ofertas em periféricos de PC:</p>
+          <ul>
+            <li>Mouse Gamer: R$ 50,00</li>
+            <li>Teclado Mecânico: R$ 100,00</li>
+            <li>Fone de Ouvido Gamer: R$ 80,00</li>
+          </ul>
+        </div>
+        
+        <div class="product-list-section">
+          <h2>Produtos</h2>
+          <div class="product-filter">
+            <label for="price-filter">Filtrar por Preço:</label>
+            <select id="price-filter">
+              <option value="low-to-high">Menor para o Maior</option>
+              <option value="high-to-low">Maior para o Menor</option>
+            </select>
+          </div>
+          <ul class="product-list">
+            <li>
+              <img src="mouse-gamer.jpg" alt="Mouse Gamer">
+              <h3>Mouse Gamer</h3>
+              <p>R$ 50,00</p>
+            </li>
+            <li>
+              <img src="teclado-mecanico.jpg" alt="Teclado Mecânico">
+              <h3>Teclado Mecânico</h3>
+              <p>R$ 100,00</p>
+            </li>
+            <li>
+              <img src="fone-gamer.jpg" alt="Fone de Ouvido Gamer">
+              <h3>Fone de Ouvido Gamer</h3>
+              <p>R$ 80,00</p>
+            </li>
+          </ul>
+          <div class="shipping-section">
+            <label for="cep-input">Calcule o frete:</label>
+            <input type="text" id="cep-input" placeholder="Digite seu CEP">
+            <button id="calc-button">Calcular</button>
+            <p id="shipping-cost"></p>
+          </div>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
