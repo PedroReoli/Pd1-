@@ -1,27 +1,43 @@
+:root {
+    --cor0: #005983;
+    --cor1: #00b1b8;
+    --cor2: #005983;
+    --cor3: #ffffff;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor0),var(--cor3));
+}
+div > h1{
+    text-align: center;
+    font-family: monospace;
+}
 header{
     text-align: center;
-    margin-top: 200px
+    margin-top: 100px
 }
 header > h1 {
     color: green;
-    box-shadow: 6px 0px 0px black;
+    box-shadow: 6px 0px 0px rgb(224, 211, 211);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px 10px 0px 0px;
     width: 700px;  
     margin: auto;
     height: 110px;
-    
+    background-color: white;
 }
 
 main > form{
-    box-shadow: 3px 3px 0px 3px black;
+    box-shadow: 3px 3px 0px 3px rgb(224, 211, 211);
     text-align: center;
     margin-top: 30px;
     border-radius: 0px 0px 10px 10px;
     width: 700px;  
     margin: auto;
     height: 270px;
-    margin-bottom: auto;
+    margin-bottom: 50%;
+    background-color: white;
 }
 
 
@@ -45,4 +61,3 @@ main > form{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
