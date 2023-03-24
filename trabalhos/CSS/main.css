@@ -1,3 +1,4 @@
+/* Palheta de cores -Início */
 :root {
   --cor0: #2C3E50;
   --cor1: #FFF;
@@ -7,7 +8,7 @@
   --cor5: #7F8C8D;
   --cor6: #fffd82;
 }
-
+/* Palheta de cores -Fim */
 
 body{
   background-color: var(--cor0);
@@ -17,6 +18,7 @@ body{
   margin-top: 0%;
 }
 
+/* CSS do cabeçalho -Início */
 header > h1 {
   text-align: center;
   background-color: var(--cor0);
@@ -47,6 +49,7 @@ header > nav > div > a {
 a{
   text-decoration: none;
 }
+/* IDS relacionadas ao cabeçalho - Fim*/
 #anuncio{
   text-align: center;
   height: 0px;
@@ -68,6 +71,10 @@ a{
   height: 30px;
   font-weight: bold;
 }
+/* IDS relacionadas ao cabeçalho - Fim*/
+/* CSS cabeçalho -Fim */
+
+/* CSS containers - Início*/
 main{
   background-color: white;
   margin-left: 100px;
@@ -77,6 +84,9 @@ main{
   margin-top: 0%;
   margin-bottom: px;
 }
+main > div >h2{
+  text-align: center;
+}
 main > h3{
   text-align: center;
   white-space: nowrap;
@@ -85,14 +95,16 @@ main > p{
   text-align: center;
   white-space: nowrap;
 }
+
 aside{
   text-align: center;
-  margin-left: 1500px;
+  margin-left: 1450px;
   background-color: white;
-  width: 250px ;
+  width: 320px ;
   height: 1320px;
   border-radius: 0px 10px 10px 0px ;
 }
+/* CSS containers - Início*/
 
 
 
