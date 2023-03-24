@@ -1,0 +1,48 @@
+header{
+    text-align: center;
+    margin-top: 200px
+}
+header > h1 {
+    color: green;
+    box-shadow: 6px 0px 0px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px 10px 0px 0px;
+    width: 700px;  
+    margin: auto;
+    height: 110px;
+    
+}
+
+main > form{
+    box-shadow: 3px 3px 0px 3px black;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 0px 0px 10px 10px;
+    width: 700px;  
+    margin: auto;
+    height: 270px;
+    margin-bottom: auto;
+}
+
+
+#email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#senha{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#entrar{
+    margin-bottom: 90px;
+    margin-left: 126px;
+}
+#ambos{
+    margin-right: 127px;
+}
+#cadastro {
+    background-color: rgb(102, 255, 102);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
