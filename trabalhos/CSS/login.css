@@ -8,13 +8,13 @@
 }
 
 body {
-    background-color: #2C3E50;
-    color: #FFF;
+    background-color: var(--cor0);
+    color: var(--cor1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-    color: #FFF;
+    color: var(--cor1);
     text-decoration: none;
 }
 
@@ -35,8 +35,8 @@ h1 {
 header h1 {
     margin-top: 50px;
     text-align: center;
-    font-size: 50px;
-    text-shadow: 2px 2px #1B2631;
+    font-size: 40px;
+    text-shadow: 2px 2px var(--cor3);
 }
 
 form {
@@ -59,13 +59,13 @@ input {
     font-size: 18px;
     width: 100%;
     max-width: 300px;
-    box-shadow: 0 0 10px #1B2631;
+    box-shadow: 0 0 10px var(--cor3);
 }
 
 #entrar {
     margin-top: 20px;
-    background-color: #2980B9;
-    color: #FFF;
+    background-color: var(--cor2);
+    color: var(--cor1);
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -73,7 +73,7 @@ input {
     width: 100%;
     max-width: 300px;
     cursor: pointer;
-    box-shadow: 0 0 10px #1B2631;
+    box-shadow: 0 0 10px var(--cor3);
 }
 
 #entrar:hover {
@@ -81,17 +81,17 @@ input {
 }
 
 .text-muted {
-    color: #7F8C8D;
+    color: var(--cor4);
     font-size: 16px;
     margin-top: 20px;
 }
 
 .text-muted a {
-    color: #7F8C8D;
+    color: var(--cor4);
     font-weight: bold;
 }
 
 .text-muted a:hover {
-    color: #FFF;
+    color: var(--cor1);
 }
 
