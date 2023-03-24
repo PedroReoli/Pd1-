@@ -7,16 +7,18 @@
   --cor5: #fffd82;
 }
 
+
 body{
-  background-color: var(--cor2);
+  background-color: var(--cor0);
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
   margin-top: 0%;
 }
+
 header > h1 {
   text-align: center;
-  background-color: var(--cor2);
+  background-color: var(--cor0);
   min-height: 100px;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -37,18 +39,19 @@ header > nav > div > a {
   cursor: pointer;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 2px;
-  padding-top: 2px;
+  padding-bottom: 13px;
+  padding-top: 10px;
 }
 a{
   text-decoration: none;
 }
-
 #anuncio{
   text-align: center;
   height: 0px;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 0%;
+  font-weight: 500;
 }
 #div_perfil{
   text-align: left;
@@ -63,17 +66,32 @@ a{
   height: 30px;
   font-weight: bold;
 }
-#destaque{
-  margin-left: 90%;
+main{
+  background-color: white;
+  margin-left: 100px;
+  border-radius: 10px;
+  height: 300px;
+  width: 1400px;
 }
-#promocao{
+main > h3{
+  text-align: center;
+}
+main > p{
+  text-align: center;
+}
+aside{
   
 }
+
+
+
 
 .product-list1-section{
     display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
+  
+
 }
 /* Estilo para o título "Produtos" */
 .product-list1-section h2 {
