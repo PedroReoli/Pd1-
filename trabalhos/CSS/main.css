@@ -2,9 +2,10 @@
   --cor0: #2C3E50;
   --cor1: #FFF;
   --cor2: #2980B9;
-  --cor3: #1B2631;
-  --cor4: #7F8C8D;
-  --cor5: #fffd82;
+  --cor3: #385af3;
+  --cor4: #1B2631;
+  --cor5: #7F8C8D;
+  --cor6: #fffd82;
 }
 
 
@@ -27,16 +28,16 @@ header > h1 {
   border-radius: 0px 0px 0px 0px;
 }
 header > nav {
-  background-color: var(--cor5);
+  background-color: var(--cor1);
   border-radius: 0px 0px 15px 15px;
   padding-top: 10px;
   margin-bottom: 50px;
 }
 header > nav > div > a {
-  background-color: var(--cor2);
+  background-color: var(--cor3);
   color: black;
   border-radius: 5px;
-  box-shadow: 0 0 10px var(--cor3);
+  box-shadow: 0 0 10px var(--cor4);
   cursor: pointer;
   padding-right: 10px;
   padding-left: 10px;
@@ -89,8 +90,8 @@ aside{
   margin-left: 1500px;
   background-color: white;
   width: 250px ;
-  height: 700px;
-  border-radius: 0px 20px 20px 0px ;
+  height: 1320px;
+  border-radius: 0px 10px 10px 0px ;
 }
 
 
