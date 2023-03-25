@@ -22,6 +22,7 @@ body{
 header > h1 {
   text-align: center;
   background-color: var(--cor0);
+  color: var(--cor1);
   min-height: 100px;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -56,26 +57,36 @@ a{
   font-size: 1.4em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 0%;
+  
   font-weight: 500;
 }
 #div_perfil{
   text-align: left;
-  margin-left: 20px;
+  margin-left: 2.7cm;
   font-weight: bold;
   height: 0px;
   padding-bottom: 0px;
 }
 #div_login{
   text-align: right;
-  margin-right: 20px;
+  margin-right: 9.6cm;
   height: 30px;
   font-weight: bold;
 }
+#destaque {
+  background-color: var(--cor1);
+  color:var(--cor0);
+  padding: 10px;
+  margin-top: -145px;
+  border: 1px solid #ccc;
+  border-radius:10px ;
+}
+
 /* IDS relacionadas ao cabeçalho - Fim*/
 /* CSS cabeçalho -Fim */
 
 /* CSS containers - Início*/
-main{
+main  {
   background-color: white;
   margin-left: 100px;
   border-radius: 10px;
@@ -84,6 +95,39 @@ main{
   margin-top: 0%;
   margin-bottom: px;
 }
+article{
+  margin-left: 100px;
+  border-radius: 10px;
+  height: 300px;
+  width: 1400px;
+  margin-top: 0%;
+  margin-bottom: px;
+}
+article > div >h2{
+  text-align: center;
+  color: var(--cor1);
+  font-size: 45px;
+}
+article > h3{
+  text-align: center;
+  white-space: nowrap;
+  /* color: var(--cor1); */
+}
+article > p{
+  text-align: center;
+  white-space: nowrap;
+}
+
+aside{
+  text-align: center;
+  margin-left: 1450px;
+  background-color: white;
+  color: var(--cor1);
+  width: 320px ;
+  height: 1320px;
+  border-radius: 0px 10px 10px 0px ;
+}
+
 main > div >h2{
   text-align: center;
 }
@@ -106,122 +150,65 @@ aside{
 }
 /* CSS containers - Início*/
 
-
-
-
-.product-list1-section{
-    display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  
-
+/* Estilo para o filtro de preço */
+.product-filter label {
+  font-weight: bold;
+  color:var(--cor1)
 }
-/* Estilo para o título "Produtos" */
-.product-list1-section h2 {
-    font-size: 24px;
-    margin-bottom: 16px;
-  }
-  
-  /* Estilo para o filtro de preço */
-  .product-filter label {
-    font-weight: bold;
-  }
-  
-  .product-filter select {
-    margin-left: 8px;
-    padding: 4px;
-  }
-  
-  /* Estilo para os itens de produto */
-  .product-list1 {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-  }
-  .product-list1 li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-  
-  .product-list1 li img {
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-  }
-  
-  .product-list1 li h3 {
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
-  
-  .product-list1 li p {
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 10px;
-  }
-  .product-list1 button {
-    background-color: #385af3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 6px 15px;
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-left: 5px;
-  }
-  /* List 2 */
-  .product-list2 {
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-  }
-  .product-list2 li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-    /* position: fixed; */
-    top: 10cm;
-    left: 10cm;
-    /* margin-left: 30%; */
-    
-    
-  }
-  
-  .product-list2 li img {
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    
-    
-  }
-  
-  .product-list2 li h3 {
-    font-size: 18px;
-    margin-bottom: 4px;
-  }
-  
-  .product-list2 li p {
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 10px;
-  }
-  .product-list2 button {
-    background-color: #385af3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 6px 15px;
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-left: 5px;
-  }
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-grid-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-grid-item p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.product-grid-item button {
+  background-color: var(--cor3);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.product-grid-item button:hover {
+  background-color: var(--cor2);
+  color: #1c1c1c;
+  border: 2px solid #1c1c1c;
+}
   
   /* Estilo para o campo de frete */
   .shipping-section label {
