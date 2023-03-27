@@ -9,6 +9,19 @@
       {
         "link-name": "off"
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
     ]
   }
 }

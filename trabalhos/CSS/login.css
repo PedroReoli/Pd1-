@@ -8,7 +8,10 @@
 }
 
 body {
-    background-color: var(--cor0);
+    /* background-color: var(--cor0); */
+    background-image: url(img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--cor1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
