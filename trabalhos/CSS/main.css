@@ -12,8 +12,8 @@
 
 body{
   background-color: var(--cor0);
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0%;
   margin-top: 0%;
 }
@@ -21,8 +21,8 @@ body{
 /* CSS do cabeçalho -Início */
 header > h1 {
   text-align: center;
-  background-color: var(--cor0);
   color: var(--cor1);
+  background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
   min-height: 100px;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -36,7 +36,7 @@ header > nav {
   padding-top: 10px;
   margin-bottom: 50px;
 }
-header > nav > div > a {
+header > nav > span > a {
   background-color: var(--cor3);
   color: black;
   border-radius: 5px;
@@ -44,43 +44,36 @@ header > nav > div > a {
   cursor: pointer;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 13px;
-  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-top: 5px;
 }
 a{
   text-decoration: none;
 }
 /* IDS relacionadas ao cabeçalho - Fim*/
-#anuncio{
+.anuncio{
   text-align: center;
   height: 0px;
   font-size: 1.4em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 0%;
-  
   font-weight: 500;
+  margin-left: 350px;
 }
-#div_perfil{
+.perfil{
   text-align: left;
-  margin-left: 2.7cm;
+  margin-left: 20px;
   font-weight: bold;
   height: 0px;
   padding-bottom: 0px;
 }
-#div_login{
+.login{
   text-align: right;
-  margin-right: 9.6cm;
+  margin-left:300px;
   height: 30px;
   font-weight: bold;
 }
-#destaque {
-  background-color: var(--cor1);
-  color:var(--cor0);
-  padding: 10px;
-  margin-top: -145px;
-  border: 1px solid #ccc;
-  border-radius:10px ;
-}
+
 
 /* IDS relacionadas ao cabeçalho - Fim*/
 /* CSS cabeçalho -Fim */
@@ -88,12 +81,10 @@ a{
 /* CSS containers - Início*/
 main  {
   background-color: white;
-  margin-left: 100px;
+  margin-left: 170px;
   border-radius: 10px;
   height: 300px;
-  width: 1400px;
-  margin-top: 0%;
-  margin-bottom: px;
+  width: 1000px;
 }
 article{
   margin-left: 100px;
@@ -118,16 +109,6 @@ article > p{
   white-space: nowrap;
 }
 
-aside{
-  text-align: center;
-  margin-left: 1450px;
-  background-color: white;
-  color: var(--cor1);
-  width: 320px ;
-  height: 1320px;
-  border-radius: 0px 10px 10px 0px ;
-}
-
 main > div >h2{
   text-align: center;
 }
@@ -140,14 +121,7 @@ main > p{
   white-space: nowrap;
 }
 
-aside{
-  text-align: center;
-  margin-left: 1450px;
-  background-color: white;
-  width: 320px ;
-  height: 1320px;
-  border-radius: 0px 10px 10px 0px ;
-}
+
 /* CSS containers - Início*/
 
 /* Estilo para o filtro de preço */
@@ -155,11 +129,16 @@ aside{
   font-weight: bold;
   color:var(--cor1)
 }
+.product-list-section{
+  text-align: center;
+}
 
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-right: 70px;
+  margin-right: auto;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
 }
 
@@ -172,36 +151,42 @@ aside{
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
 
-.product-grid-item img {
-  max-width: 100%;
+.product-grid-item > img {
+  width: 100%;
+  max-height: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 30px;
 }
 
-.product-grid-item h3 {
+.product-grid-item > h3 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.product-grid-item p {
+.product-grid-item > p {
   margin: 10px 0;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.product-grid-item button {
+.product-grid-item > button {
   background-color: var(--cor3);
-  color: white;
+  color: var(--cor1);
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  
 }
 
 .product-grid-item button:hover {
