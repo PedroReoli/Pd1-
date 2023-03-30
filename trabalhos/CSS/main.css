@@ -1,3 +1,6 @@
+  @media screen and (min-width: 800px){
+    
+  
   /* Palheta de cores -Início */
   :root {
     --cor0: #2C3E50;
@@ -239,4 +242,4 @@
       font-weight: bold;
     }
     
-    
+  }
