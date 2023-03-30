@@ -20,8 +20,8 @@ form.addEventListener('submit', function(event) {
   
   alert("Usuário cadastrado com sucesso!");
 
-  // redirecione para a página de login
-  window.location.href = "login.html";
+  // redirecione para a página de login com os dados de usuário armazenados como parâmetros de consulta
+  window.location.href = "login.html?email=" + encodeURIComponent(email) + "&senha=" + encodeURIComponent(senha);
 });
 
 const cadastrarBtn = document.getElementById("cadastrar");
