@@ -81,34 +81,12 @@ a{
 /* CSS containers - Início*/
 main  {
   background-color: white;
-  margin-left: 170px;
+  margin-left:400px;
   border-radius: 10px;
+  
   height: 300px;
   width: 1000px;
 }
-article{
-  margin-left: 100px;
-  border-radius: 10px;
-  height: 300px;
-  width: 1400px;
-  margin-top: 0%;
-  margin-bottom: px;
-}
-article > div >h2{
-  text-align: center;
-  color: var(--cor1);
-  font-size: 45px;
-}
-article > h3{
-  text-align: center;
-  white-space: nowrap;
-  /* color: var(--cor1); */
-}
-article > p{
-  text-align: center;
-  white-space: nowrap;
-}
-
 main > div >h2{
   text-align: center;
 }
