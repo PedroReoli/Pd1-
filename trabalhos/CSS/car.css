@@ -1,0 +1,65 @@
+:root {
+    --cor0: #2C3E50;
+    --cor1: #FFF;
+    --cor2: #2980B9;
+    --cor3: #385af3;
+    --cor4: #1B2631;
+    --cor5: #7F8C8D;
+    --cor6: #fffd82;
+  }
+  
+  body {
+    background-color: var(--cor0);
+    color: var(--cor1);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--cor1);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid var(--cor3);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: var(--cor3);
+    color: var(--cor1);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--cor5);
+  }
+  
+  tr:hover {
+    background-color: var(--cor5);
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--cor4);
+  }
+  
