@@ -93,6 +93,7 @@ p {
   border-radius: 0;
   border: 1px solid #ccc;
   padding: 10px;
+  padding-left:px;
   font-size: 16px;
   color: #555;
 }
