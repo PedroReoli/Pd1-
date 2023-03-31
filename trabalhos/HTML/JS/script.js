@@ -1,3 +1,25 @@
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+  nextImage();
+}, 5000)
+
+function nextImage(){
+  count++;
+  if (count>3){
+    count = 1;
+  }
+
+  document.getElementById("radio"+count).checked = true;
+
+}
+
+
+
+
+
+
 const buyButtons = document.querySelectorAll(".buy-button"); // seleciona todos os botões de compra
 let cartItems = JSON.parse(localStorage.getItem('cartItems')) || []; // recupera os itens do carrinho salvos no localStorage, ou cria um array vazio
 
@@ -64,3 +86,4 @@ document.querySelector('#cart-table tbody').appendChild(cartTable);
 
 //atualiza o valor total da compra 
 document.querySelector('p').textContent = `Total da compra: R$ ${totalPrice.toFixed(2)}`;
+
