@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="/trabalhos/CSS/main.css">
   </head>
   <body>
-      <header>
-          <h1>Loja Virtual</h1>
-          <nav>
-            <span class="perfil"><a href="#" id="link_perfil">Perfil</a></span>  
-            <span class="anuncio">A Melhor loja de equipamentos eletrônicos</span>
-            <span class="login">
-                <a href="/trabalhos/HTML/login.html">Login</a>
-                <a href="carrinho.html" >Carrinho</a>
-            </span>
-          </nav>
-      </header>
+
+    <div class="header" id="header">
+      <div class="logo_header">
+        <img src="/trabalhos/HTML/img/logo.jpg" alt="">
+      </div>
+      <div class="navigation_header">
+        <a href="/trabalhos/HTML/index.html" class="active">Home</a>
+        <a href="/trabalhos/HTML/login.html" >Login</a>
+        <a href="/trabalhos/HTML/carrinho.html">Carrinho</a>
+        <a href="#">Contato</a>
+      </div>
+    </div>
+    <div class="content" id="content">
+      <h1>Pixel A Melhor loja de eletrônicos</h1>
+    </div>
+    
+
         <div class="promotionlist">
           <div>
             <h3>Promoção</h3>
@@ -66,7 +72,7 @@
           </div>
 
       <!-- container aqui  -->
-      <div>
+    <div>
       <div class="product-list-section">
           <h2>Produtos</h2>
           <div class="product-filter">
@@ -79,49 +85,38 @@
               <!-- LIST 1 -->    
               <div class="product-grid">
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-1.jpg" alt="Mouse">
+                    <img src="img/imagem-produto-1.jpg" alt="Mouse" id="imagens">
                     <h3>Fone (black)</h3>
-                    <br>
                     <p class="price">R$ 320,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-2.jpg" alt="Teclado">
-                    <br><br><br>
+                    <img src="img/imagem-produto-2.jpg" alt="Teclado" id="imagens">
                     <h3>Mouse X</h3>
-                    <br>
                     <p class="price">R$ 200,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-3.jpg" alt="HeadSet">
-                    <br><br><br>
+                    <img src="img/imagem-produto-3.jpg" alt="HeadSet" id="imagens">
                     <h3>Teclado</h3>
-                    <br>
                     <p class="price">R$ 300,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-4.jpg" alt="Monitor">
-                    <br><br><br>
+                    <img src="img/imagem-produto-4.jpg" alt="Monitor" id="imagens">
                     <h3>Televisão</h3>
-                    <br>
                     <p class="price">R$ 5000,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-5.jpg" alt="Câmera">
-                    <br><br><br>
+                    <img src="img/imagem-produto-5.jpg" alt="Câmera" id="imagens">
                     <h3>Ryzen</h3>
-                    <br>
                     <p class="price">R$ 1000,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-6.jpg" alt="Caixa de som">
-                    <br><br><br>
+                    <img src="img/imagem-produto-6.jpg" alt="Caixa de som" id="imagens">
                     <h3>Iphone 11</h3>
-                    <br>
                     <p class="price">R$ 6500,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
@@ -129,51 +124,39 @@
 
               <div class="product-grid">
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-7.jpg" alt="Mousepad">
-                    <br><br><br>
+                    <img src="img/imagem-produto-7.jpg" alt="Mousepad" id="imagens">
                     <h3>Fone Pixel</h3>
-                    <br>
                     <p class="price">R$ 400,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-8.jpg" alt="Notebook">
-                    <br><br><br>
+                    <img src="img/imagem-produto-8.jpg" alt="Notebook" id="imagens">
                     <h3>Notegamer</h3>
-                    <br>
                     <p class="price">R$ 9600,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-9.jpg" alt="Impressora">
-                    <br><br><br>
+                    <img src="img/imagem-produto-9.jpg" alt="Impressora" id="imagens">
                     <h3>XboxControl</h3>
-                    <br>
                     <p class="price">R$ 300,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-10.jpg" alt="Smartphone">
-                    <br><br><br>
+                    <img src="img/imagem-produto-10.jpg" alt="Smartphone" id="imagens">
                     <h3>PS5Control</h3>
-                    <br>
                     <p class="price">R$ 300,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-11.jpg" alt="Tablet">
-                    <br><br><br>
+                    <img src="img/imagem-produto-11.jpg" alt="Tablet" id="imagens">
                     <h3>Monitor 144hz</h3>
-                    <br>
                     <p class="price">R$ 1700,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-12.jpg" alt="Smart TV">
-                    <br><br><br>
+                    <img src="img/imagem-produto-12.jpg" alt="Smart TV" id="imagens">
                     <h3>GameChair</h3>
-                    <br>
                     <p class="price">R$ 1.500,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>             
                   </div>
@@ -181,43 +164,37 @@
 
               <div class="product-grid">
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-13.jpg" alt="Caixa de som Bluetooth">
-                    <br>
+                    <img src="img/imagem-produto-13.jpg" alt="Caixa de som Bluetooth" id="imagens">
                     <h3>Golden TV</h3>
                     <p class="price">R$ 15000,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-14.jpg" alt="Fone de ouvido">
-                    <br>
+                    <img src="img/imagem-produto-14.jpg" alt="Fone de ouvido" id="imagens">
                     <h3>Blue Chair</h3>
                     <p class="price">R$ 1400,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-15.jpg" alt="Câmera fotográfica">
-                    <br><br><br>
+                    <img src="img/imagem-produto-15.jpg" alt="Câmera fotográfica" id="imagens">
                     <h3>Mouse Pixel</h3>
                     <p class="price">R$ 400,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-16.jpg" alt="Caixa de ferramentas">
-                    <br>
+                    <img src="img/imagem-produto-16.jpg" alt="Caixa de ferramentas" id="imagens">
                     <h3>Alexa</h3>
                     <p class="price">R$ 300,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-17.jpg" alt="Aspirador de pó">
-                    <br><br><br><br>
+                    <img src="img/imagem-produto-17.jpg" alt="Aspirador de pó" id="imagens">
                     <h3>Gold Alexa</h3>
                     <p class="price">R$ 500,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
                   </div>
                   <div class="product-grid-item">
-                    <img src="img/imagem-produto-18.jpg" alt="Console de videogame">
-                    <br>
+                    <img src="img/imagem-produto-18.jpg" alt="Console de videogame" id="imagens">
                     <h3>Gabinete</h3>
                     <p class="price">R$ 300,00</p>
                     <button class="buy-button" data-quantity="0">Comprar</button>
