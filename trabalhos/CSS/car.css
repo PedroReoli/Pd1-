@@ -6,10 +6,13 @@
     --cor4: #1B2631;
     --cor5: #7F8C8D;
     --cor6: #fffd82;
+    --cor7: #386c8357; 
+    --cor8: #e7eced;
+    --cor9: #16bec3;
   }
   
   body {
-    background-color: var(--cor0);
+    background:
     color: var(--cor1);
   }
   
