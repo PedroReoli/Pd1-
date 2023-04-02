@@ -10,7 +10,7 @@ if (produtosSelecionados && produtosSelecionados.length > 0) {
   mensagem = 'Nenhum produto selecionado';
 }
 
-alert(mensagem);
+console.log(mensagem);
 
 // Seleciona o elemento da tabela onde serão inseridos os produtos
 const tabela = document.querySelector('#cart-table');
@@ -44,6 +44,11 @@ const totalCompraElemento = document.querySelector('p');
 // Exibe o total da compra no elemento selecionado
 totalCompraElemento.textContent = `Total da compra: R$ ${totalCompra.toFixed(2).replace('.', ',')}`;
 // TESTANDO 
+document.querySelector('#clear-cart').addEventListener('click', () => {
+  localStorage.removeItem('produtos');
+  location.reload();
+});
+
 
 document.querySelector('#buy-cart').addEventListener('click', () => {
   const w = window.open('', '_blank', 'width=800,height=600');
@@ -79,4 +84,5 @@ document.querySelector('#buy-cart').addEventListener('click', () => {
       </body>
     </html>
   `);
+  
 });

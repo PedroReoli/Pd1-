@@ -1,3 +1,5 @@
+
+
 // Cria um array vazio para armazenar os produtos
 const produtos = [];
 
@@ -16,7 +18,7 @@ botoesCompra.forEach(botao => {
 
 // Verifica se o produto foi adicionado com sucesso e exibe o alerta
 if (produtos.length > 0 && produtos[produtos.length - 1].nome === nome && produtos[produtos.length - 1].preco === preco) {
-  alert("Produto adicionado");
+  console.log("Produto adicionado");
 }
 // Armazena os produtos no local storage
 localStorage.setItem('produtos', JSON.stringify(produtos));
@@ -24,4 +26,5 @@ localStorage.setItem('produtos', JSON.stringify(produtos));
     // Imprime o array de produtos no console para verificar
     console.log(produtos);
   });
+
 });

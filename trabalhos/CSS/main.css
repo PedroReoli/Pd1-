@@ -6,10 +6,10 @@
   --cor3: #385af3;
   --cor4: #1B2631;
   --cor5: #7F8C8D;
-  --cor6: #fffd82;
-  --cor7: #386c8357; 
-  --cor8: #e7eced;
-  --cor9: #16bec3;
+  --cor6: #dda657;
+  --cor7: #7ec1d4; 
+  --cor8: #d1f1fafc;
+  --cor9: #17597d;
 }
 /* Palheta de cores - Fim */
 /* ------------------------------------------------------------------------ */
@@ -59,7 +59,7 @@ background-color: var(--cor8);
 }
 .navigation_header > a{
   text-decoration: none;
-  color: var(--cor4);
+  color: var(--cor1);
   transition: 1s;
   font-weight: bold;
 }
