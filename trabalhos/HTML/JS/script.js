@@ -11,7 +11,6 @@ function nextImage(){
   }
 }
 document.getElementById("radio"+count).checked = true;
-
 // Cria um array vazio para armazenar os produtos
 const produtos = [];
 
@@ -38,5 +37,6 @@ localStorage.setItem('produtos', JSON.stringify(produtos));
     // Imprime o array de produtos no console para verificar
     console.log(produtos);
   });
+  
 
 });
