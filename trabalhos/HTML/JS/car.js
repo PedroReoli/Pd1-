@@ -48,41 +48,7 @@ document.querySelector('#clear-cart').addEventListener('click', () => {
   localStorage.removeItem('produtos');
   location.reload();
 });
-
-
-document.querySelector('#buy-cart').addEventListener('click', () => {
-  const w = window.open('', '_blank', 'width=800,height=600');
-  w.document.write(`
-    <html>
-      <head>
-        <title>Finalizar Compra</title>
-        <link rel="stylesheet" href="/trabalhos/CSS/car.css">
-      </head>
-      <body>
-        <h1>Finalizar Compra</h1>
-        <form>
-          <label for="name">Nome:</label>
-          <input type="text" id="name" name="name"><br><br>
-          
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email"><br><br>
-          
-          <label for="address">Endereço:</label>
-          <textarea id="address" name="address"></textarea><br><br>
-          
-          <label for="card-number">Número do Cartão:</label>
-          <input type="text" id="card-number" name="card-number"><br><br>
-          
-          <label for="card-expiry">Data de Expiração:</label>
-          <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/YY"><br><br>
-          
-          <label for="card-cvv">CVV:</label>
-          <input type="text" id="card-cvv" name="card-cvv"><br><br>
-          
-          <button type="submit">Confirmar Compra</button>
-        </form>
-      </body>
-    </html>
-  `);
-  
+const buyButton = document.querySelector('#buy-cart');
+buyButton.addEventListener('click', () => {
+  location.href = '/trabalhos/HTML/fin.html';
 });

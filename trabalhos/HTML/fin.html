@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário de compra</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/trabalhos/CSS/car.css">
+    <script src ="JS/script.js"></script>
+    <script src="JS/car.js"></script>
+    <script src = "JS/fin.js"></script>
+
+</head>
+<body>
+	<h1>Formulário de compra</h1>
+	<form name="myForm" onsubmit="return validateForm()">
+		<label for="cep1">CEP:</label>
+		<input type="text" name="cep1" maxlength="5">
+		<input type="text" name="cep2" maxlength="3">
+		<div id="cepError" class="error"></div>
+
+		<label for="quantity">Quantidade de produtos:</label>
+		<input type="text" name="quantity" maxlength="1">
+		<div id="quantityError" class="error"></div>
+
+		<button type="submit">Calcular frete</button>
+	</form>
+</body>
+</html>
