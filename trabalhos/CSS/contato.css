@@ -1,0 +1,48 @@
+:root {
+    --cor0: #2C3E50;
+    --cor1: #FFF;
+    --cor2: #2980B9;
+    --cor3: #385af3;
+    --cor4: #1B2631;
+    --cor5: #7F8C8D;
+    --cor6: #dda657;
+    --cor7: #7ec1d4; 
+    --cor8: #d1f1fafc;
+    --cor9: #17597d;
+  }
+body {
+    background-color: var(--cor7);
+      margin: 0 10px 0 10px;
+      font-family:'Open Sans', Arial, Helvetica, sans-serif ;
+      font-size: 1.2rem;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: var(--cor0);
+    }
+    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    }
+    
+    .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    }
