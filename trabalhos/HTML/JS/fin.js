@@ -15,4 +15,5 @@ function validateForm() {
         document.getElementById("quantityError").innerHTML = "Quantidade inválida";
         return false;
     }
+    
 }
