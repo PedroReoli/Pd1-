@@ -13,6 +13,7 @@
 <body>
     
 	<h1>Formulário de compra</h1>
+	<!-- Formulario com cep e quantidade e calc de frete -->
 	<form name="myForm" onsubmit="return validateForm()">
 		<div>
 			<label for="cep1">CEP:</label>
@@ -52,8 +53,14 @@
 		</select>
 		<button id="confirmar" type="submit">Confirmar pagamento</button>
 	</form>
-<!-- Codigo de confirmacao separado pois ao inserir no fin.js nao tava indo -->
+<!-- Codigo de confirmacao separado abaixo pois ao inserir no fin.js nao tava indo(Vai entender o porque) -->
 	<script>
+		const numeroCartaoInput = document.querySelector('input[name="numeroCartao"]');
+
+			numeroCartaoInput.addEventListener('input', () => {
+			const numeroCartao = numeroCartaoInput.value;
+			numeroCartaoInput.value = numeroCartao.replace(/\s/g, '');
+			});
 		const confirmarBtn = document.getElementById('confirmar');
 
 		confirmarBtn.addEventListener('click', () => {
