@@ -30,16 +30,16 @@ produtosSelecionados.forEach(produto => {
   
   // Adiciona as células à linha
   linha.appendChild(celulaNome);
-  linha.appendChild(celulaPreco);
+  linha.appendChild(celulaPreco);  //AppendChild adciona nós
   
   // Adiciona a linha à tabela
   tabela.appendChild(linha);
 });
 // Calcula o total da compra
 const totalCompra = produtosSelecionados.reduce((total, produto) => total + parseFloat(produto.preco.replace(',', '.').substring(3)), 0);
-
+// Reduce itera o somatorio 
 // Seleciona o elemento do total da compra
-const totalCompraElemento = document.querySelector('p');
+const totalCompraElemento = document.querySelector('p');  //
 
 // Exibe o total da compra no elemento selecionado
 totalCompraElemento.textContent = `Total da compra: R$ ${totalCompra.toFixed(2).replace('.', ',')}`;

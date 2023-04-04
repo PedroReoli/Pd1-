@@ -1,3 +1,5 @@
+/* CSS DO CARRINHO */
+/* Paleta de cores  */
 :root {
   --cor0: #2C3E50;
   --cor1: #FFF;
@@ -18,7 +20,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--cor0);
 }
-
+/* Tabela Beg */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -38,7 +40,7 @@ th {
   background-color: var(--cor3);
   color: var(--cor1);
 }
-
+/* Linhas */
 tr:nth-child(even) {
   background-color: var(--cor5);
 }
@@ -46,7 +48,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: var(--cor5);
 }
-
+/* TTabela End */
 p {
   font-size: 20px;
 }

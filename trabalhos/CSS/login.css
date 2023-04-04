@@ -1,3 +1,4 @@
+/* Paleta de Cores */
 :root {
     --cor0: #2C3E50;
     --cor1: #FFF;
@@ -86,7 +87,7 @@ input {
     cursor: pointer;
     box-shadow: 0 0 10px var(--cor3);
 }
-
+/* botoes e afins beg */
 #entrar:hover {
     opacity: 0.8;
 }
@@ -105,4 +106,4 @@ input {
 .text-muted a:hover {
     color: var(--cor1);
 }
-
+/* End */

@@ -1,3 +1,4 @@
+/* Paleta de cores */
 :root {
     --cor0: #2C3E50;
     --cor1: #FFF;
@@ -19,7 +20,7 @@
   h1, h2, h3, h4, h5, h6 {
     color: var(--cor0);
   }
-  
+  /* Tabela beg */
   table {
     border-collapse: collapse;
     width: 100%;
@@ -47,7 +48,7 @@
   tr:hover {
     background-color: var(--cor5);
   }
-  
+  /* Tabela End */
   p {
     font-size: 22px;
   }
@@ -65,7 +66,7 @@
   button:hover {
     background-color: var(--cor4);
   }
-  
+  /* Formulario e Afins Beg */
   form {
     display: flex;
     flex-direction: column;
@@ -112,7 +113,7 @@
   button[type="submit"] {
     align-self: flex-end;
   }
-  
+  /* Formulario e Afins End  */
   /*  */
   
   #confirmar {

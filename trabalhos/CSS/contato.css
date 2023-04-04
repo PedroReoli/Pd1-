@@ -1,3 +1,4 @@
+/* Paleta de cores */
 :root {
     --cor0: #2C3E50;
     --cor1: #FFF;
@@ -10,6 +11,7 @@
     --cor8: #d1f1fafc;
     --cor9: #17597d;
   }
+
 body {
     background-color: var(--cor7);
       margin: 0 10px 0 10px;
@@ -21,7 +23,7 @@ h1, h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     color: var(--cor0);
     }
-    
+ /*Container dos perfis   */
 .container {
     display: flex;
     flex-wrap: wrap;
