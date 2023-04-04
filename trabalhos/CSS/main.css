@@ -162,7 +162,7 @@ main {
   margin-right: 20px;
 }
 .manual-btn:hover{
-  background-color: white;
+  background-color: var(--cor1);
 }
 #radio1:checked ~ .first{
   margin-left: 0;

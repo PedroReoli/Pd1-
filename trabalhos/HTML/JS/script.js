@@ -1,16 +1,20 @@
+
 let count = 1;
 document.getElementById("radio1").checked = true;
-setInterval( 
-  function(){
-    nextImage();
-  },6000)
+
+setInterval( function(){
+  nextImage();
+}, 5000)
+
 function nextImage(){
   count++;
-  if (count>3) {
-    count = 0
+  if (count>3){
+    count = 1;
   }
+
+  document.getElementById("radio"+count).checked = true;
+
 }
-document.getElementById("radio"+count).checked = true;
 // Cria um array vazio para armazenar os produtos
 const produtos = [];
 
