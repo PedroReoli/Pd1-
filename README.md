@@ -1,4 +1,4 @@
-# Pd1-
+# Pd1- Projeto de Desenvolvimento 01
 Olá e bem-vindos ao nosso repositório no GitHub!
 
 Este projeto tem como objetivo criar um site de compras, onde pudemos treinar nossas habilidades de desenvolvimento de front-end, back-end e design. Para desenvolvê-lo, utilizamos as linguagens HTML, CSS e JavaScript, além de utilizar JSON para armazenar dados.
