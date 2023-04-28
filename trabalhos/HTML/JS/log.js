@@ -17,7 +17,7 @@ form.addEventListener("submit", function(event) {
 
   if (usuarioCorrespondente) {
     // redirecionar para o "index.html" se houver um usuário correspondente
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
   } else {
     // exibir uma mensagem de erro se não houver um usuário correspondente
     alert("As informações de login inseridas não correspondem a um usuário existente.");
