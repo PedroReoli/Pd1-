@@ -14,6 +14,7 @@ form.addEventListener('submit', function(event) {
     senha: senha
   };
   
+  
   let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
   usuarios.push(usuario);
   localStorage.setItem('usuarios', JSON.stringify(usuarios));

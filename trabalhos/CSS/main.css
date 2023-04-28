@@ -144,6 +144,7 @@ main {
 #mouse{
   height: 600px;
 }
+
 .manual-navigation{
   position: absolute;
   width: 1000px;
@@ -315,3 +316,4 @@ main {
   padding: 10px;
   }
 }
+
